@@ -147,7 +147,7 @@ app.get("/about", function (req, res) {
 
 let port = process.env.PORT;
 if (port == null || port == "") {
-  port = 401;
+  port = 80;
 }
 
 app.listen(port, function () {
